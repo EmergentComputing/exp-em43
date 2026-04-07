@@ -4,7 +4,8 @@ This repository contains the code required to reproduce the experiments from the
 
 ## Overview
 
-The workflow is notebook-based. Running a specific task requires editing selected parts of the notebooks, with the relevant sections explained inline. The implementation is designed for large-scale simulations, and GPU acceleration through **Taichi** enables the batching of tens of thousands of emergent models (EMs).
+The workflow is notebook-based. Running a specific task requires editing selected parts of the notebooks, with the relevant sections explained inline.
+The training script uses gpu parallelization for faster simulation of CA batches.
 
 ## Dependencies
 
