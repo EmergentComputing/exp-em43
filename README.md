@@ -17,7 +17,7 @@ The required Python dependencies are:
 
 ## Typical Setup
 
-The recommended environment is **Google Colab with GPU enabled**.
+The recommended environment is **Google Colab with GPU enabled**, T4 gpu is enough.
 
 ## Repository Structure
 
